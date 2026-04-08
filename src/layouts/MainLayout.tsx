@@ -19,7 +19,7 @@ const MainLayout = () => {
                     <li><Link to="#">இலக்கியம்</Link></li>
                 </ul>
             </nav>
-            <main className="max-w-3/6 mx-auto py-4">
+            <main className="max-w-[96%] mx-auto py-4">
                 <Outlet/>
             </main>
         </div>

@@ -5,4 +5,11 @@ export type Blog = {
     excerpt: string;
     imageUrl: string;
     publishedAt: string;
+    categories: string[];
+    body: any;
 }
+
+export type Category = {
+  title: string;
+  slug: string;
+};

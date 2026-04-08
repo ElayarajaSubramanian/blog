@@ -20,6 +20,10 @@ export const router = createBrowserRouter([
             {
                 path:"/aboutme",
                 Component: AboutMe
+            },
+            {
+                path:"/category/:category",
+                Component: Home
             }
         ]
     }
