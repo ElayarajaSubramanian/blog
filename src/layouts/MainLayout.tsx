@@ -1,4 +1,4 @@
-import { Activity, useState } from "react"
+import { useState } from "react"
 import { Link, Outlet } from "react-router"
 
 const MainLayout = () => {
