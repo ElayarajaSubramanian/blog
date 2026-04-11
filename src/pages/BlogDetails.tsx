@@ -17,7 +17,7 @@ const BlogDetails = () => {
   if(!data) return <p>No data found</p>
 
   return (
-    <div className="max-w-3xl mx-auto">
+    <div className="max-w-3xl mx-auto px-4 md:px-0">
       {data.categories?.map((cat)=>(
         <span key={cat} className="text-xs bg-gray-200 py-1 px-2 rounded-xs mr-4">{cat}</span>
       ))}

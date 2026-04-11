@@ -2,7 +2,7 @@ import ProfilePic from "../assets/profile-pic.jpg"
 
 const AboutMe = () => {
     return(
-        <div className="flex gap-8">
+        <div className="flex gap-8 flex-col md:flex-row">
             <img src={ProfilePic} className="w-80 h-80 object-cover object-top"/>
             <div>
                 <h1 className="text-lg text-black text-center font-semibold mb-5">இளையராஜா சுப்ரமணியன்</h1>

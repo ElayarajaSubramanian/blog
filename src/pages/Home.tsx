@@ -39,7 +39,7 @@ const Home = () => {
     }
 
     return(
-        <div className="grid grid-cols-(--home-layout) gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-(--home-layout) gap-4">
             <div className="flex flex-col mb-6">
                 <h1 className="py-2 w-full bg-blue-500 text-white text-center text-lg font-semibold">வகைகள்</h1>
                 <div className="bg-white flex flex-col">
