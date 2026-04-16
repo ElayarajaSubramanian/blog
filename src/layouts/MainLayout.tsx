@@ -18,12 +18,12 @@ const MainLayout = () => {
                     <ul className="flex gap-4 justify-center items-center text-white flex-col md:flex-row">
                         <li><Link to="/">முதல் பக்கம்</Link></li>
                         <li><Link to="/aboutme">என்னைப் பற்றி</Link></li>
-                        <li><Link to="#">சிறுகதைகள்</Link></li>
-                        <li><Link to="#">தொடர்கள்</Link></li>
-                        <li><Link to="#">சினிமா</Link></li>
-                        <li><Link to="#">இலக்கியம்</Link></li>
+                        <li><Link to="/category/சிறுகதைகள்">சிறுகதைகள்</Link></li>
+                        <li><Link to="/category/தொடர்கள்">தொடர்கள்</Link></li>
+                        <li><Link to="/category/சினிமா">சினிமா</Link></li>
+                        <li><Link to="/category/இலக்கியம்">இலக்கியம்</Link></li>
                     </ul>
-                </nav>
+                </nav> 
             <main className="max-w-[96%] mx-auto py-4">
                 <Outlet/>
             </main>

@@ -52,7 +52,7 @@ const Home = () => {
                     {categories?.map((cat: any) => (
                         <button
                             key={cat.slug}
-                            onClick={() => navigate(`/category/${cat.title}`)}
+                            onClick={() => navigate(`/category/${cat.slug}`)}
                             className={`p-3 not-last:border-b border-b-gray-200 cursor-pointer hover:text-blue-500 ${selectedCategory === cat.title ? "text-blue-500":""}`}
                         >
                             {cat.title}
