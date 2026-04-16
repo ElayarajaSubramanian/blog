@@ -22,7 +22,7 @@ const BlogDetails = () => {
         <span key={cat} className="text-xs bg-gray-200 py-1 px-2 rounded-xs mr-4">{cat}</span>
       ))}
       <h1 className="text-3xl font-bold my-4">{data.title}</h1>
-      <img className="w-2/6 rounded-sm p-1 mx-auto my-4 border border-gray-300" src={data?.imageUrl} alt={data.title} />
+      <img className="w-4/6 md:w-2/6 rounded-sm p-1 mx-auto my-4 border border-gray-300" src={data?.imageUrl} alt={data.title} />
       <div className="prose leading-7">
         <PortableText value={data.body} />
       </div>
